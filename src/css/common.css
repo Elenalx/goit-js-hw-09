@@ -16,3 +16,30 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  background-color: rgb(139, 139, 255);
+  border-radius: none;
+  border-radius: 10px;
+  padding: 5px 10px ;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.timer {
+display:flex;
+}
+.field {
+  display: grid;
+  margin: 6px;
+text-align: center;
+}
+
+.value {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.label {
+  color: blue;
+}
